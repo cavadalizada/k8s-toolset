@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apk add curl
+
 arch=$(uname -m)
 
 case $arch in
